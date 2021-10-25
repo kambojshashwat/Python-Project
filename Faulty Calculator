@@ -1,0 +1,23 @@
+print('This is a Basic Calculator with Some Faulty Equations Designed By SHASHWAT')
+print('Please Enter Your Mode of Operations Which You Want to use!\n + for addition\n - for subtraction\n * for Multiplication\n / for Divide')
+oper = input('Enter Your Operator: ')
+num1 = int(input('Enter Your 1st Number: '))
+num2 = int(input('Enter Your 2nd Number: '))
+
+if oper == "+" or num1 == 56 or num2 == 9:
+        print('Addition is: 77')
+    else:
+        print('Addition is:', num1+num2)
+if oper == '*' or num1 == 45 or num2 == 3:
+        print('Multiplication is: 555')
+    else:
+        print('Multiplication is:', num1*num2)
+if oper == '/' or num1 == 56 or num2 == 6:
+        print('Division is: 4')
+    else:
+        print('Division is:', num1/num2)
+if oper == '-':
+    print('Subtraction is:', num1-num2)
+
+print('Here is your Result.')
+
