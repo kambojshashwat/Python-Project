@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz</title>
+    <style>
+        /* Add any CSS styles here */
+        pre {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quick Quiz</h1>
+    </header>
+    
+    <section>
+        <h2>Featured Videos</h2>
+        <div class="video">
+            <h4>Google Pixel 8/8 Pro</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kdKAwh_gvDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h4>Nothing OS 2.5</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fiUmGS-2Lvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Featured Songs</h2>
+        <div class="song">
+            <h3>Song 1</h3>
+            <p>Perfy - PARADOX</p>
+            <audio src="Perfy 💌 - Paradox _ Amulya Rattan _ EP - The Unknown Letter _ Def Jam India (320 kbps).mp3" controls preload="metadata"></audio>
+        </div>
+        <div class="song">
+            <h3>Song 2</h3>
+            <p>Hasti Rahe Tu</p>
+            <audio src="Hasti Rahe Tu - Paradox _(Bhula Main Jahaan)_ Amulya Rattan _ EP- The Unknown Letter _ Def Jam India (320 kbps).mp3" controls loop></audio>
+        </div>
+        <div class="song">
+            <h3>Song 3</h3>
+            <p>1920 - Evil Returns</p>
+            <audio src="song.mp3" controls></audio>
+        </div>
+    </section>
+</body>
+</html>
 
